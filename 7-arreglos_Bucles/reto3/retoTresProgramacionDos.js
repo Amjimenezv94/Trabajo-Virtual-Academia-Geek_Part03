@@ -1,3 +1,8 @@
 'use strict';
-const address = 'Medellin';
-const addressPartner = 'cali'; // no se pueden reasignar constantes
+acc = 0;
+
+for (let i = 0; i < 10; i++) {
+    acc = acc + 2;
+
+    console.log("El resultado es: " + acc);
+}
